@@ -1,6 +1,6 @@
 Name:           liblockfile
 Version:        1.08
-Release:        15%{?dist}
+Release:        17%{?dist}
 Summary:        This implements a number of functions found in -lmail on SysV systems
 
 Group:          Applications/System
@@ -73,6 +73,12 @@ ldconfig -N -n %{buildroot}/%{_libdir}
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.08-17
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.08-16
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.08-15
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
